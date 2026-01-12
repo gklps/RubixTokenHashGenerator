@@ -1,0 +1,16 @@
+# Optional dependencies for CID calculation (recommended):
+# py-cid>=0.1.0
+# OR
+# multiformats>=0.9.0
+
+# Core dependencies (Python standard library):
+# - sqlite3 (database)
+# - subprocess (IPFS commands)
+# - hashlib (SHA-256)
+# - pathlib (file operations)
+
+# To install optional CID calculation support:
+# pip install py-cid
+
+
+flask>=3.0.0
