@@ -1,0 +1,6 @@
+# IPFS Configuration
+# Set the IPFS_PATH to your .ipfs directory
+# Example: /home/cherryrubix/wallets/node002/node002/.ipfs
+
+IPFS_PATH=
+
