@@ -13,11 +13,8 @@ from cid_cache_db import get_content_by_cid, init_db
 
 app = Flask(__name__)
 
-
-@app.before_first_request
-def _init() -> None:
-    # Ensure DB exists
-    init_db()
+# Initialize DB on startup
+init_db()
 
 
 @app.get("/token/<cid>")
